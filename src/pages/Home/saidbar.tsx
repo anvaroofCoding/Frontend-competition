@@ -39,7 +39,7 @@ interface Group {
 	joined?: boolean
 }
 
-const SidebarLayout = ({ children }: Props) => {
+const SidebarLayout = () => {
 	const [collapsed, setCollapsed] = useState(false)
 	const [profile, setProfile] = useState<UserProfile | null>(null)
 	const [isGroupModalOpen, setIsGroupModalOpen] = useState(false)
