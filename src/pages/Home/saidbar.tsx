@@ -24,10 +24,6 @@ import { Outlet, useNavigate } from 'react-router-dom'
 
 const { Sider, Header, Content } = Layout
 
-interface Props {
-	children: React.ReactNode
-}
-
 interface UserProfile {
 	name: string
 	username: string
